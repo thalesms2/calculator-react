@@ -27,6 +27,7 @@ export default class Calculator extends Component {
     clearMemory() {
         this.setState({...initialState })
     }
+
     setOperation(operation) {
         if (this.state.current === 0) {
             this.setState({operation, current: 1, clearDisplay: true})
@@ -50,6 +51,7 @@ export default class Calculator extends Component {
             })
         }
     }
+    
     addDigit(n) {
         if (n === '.' && this.state.displayValue.includes('.')) {
             return
