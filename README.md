@@ -1,6 +1,6 @@
 # Calculator-React
 <img src="./img/exemplo.png" alt="exemplo imagem">
->Calculadora simples em React
+> Primeiro projeto executado em React, uma calculadora simples.
 
 ## 🚀 Acesse o projeto em:
 https://thalesms2-calculator-react.netlify.app/
